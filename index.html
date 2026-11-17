@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Few Words for My Sis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+<audio id="backgroundMusic" loop>
+    <source src="bg-music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="music-controls">
+
+    <button class="music-button" id="musicButton">
+        ♫ Music: OFF
+    </button>
+
+    <div class="volume-control">
+        <label for="musicVolume">♫ Volume</label>
+        <input
+            type="range"
+            id="musicVolume"
+            min="0"
+            max="100"
+            value="30"
+        >
+    </div>
+
+</div>
+
+
+    <!-- PAGE 1: COVER -->
+    <section class="page active" id="coverPage">
+
+    <div class="cover-content">
+
+        <p class="small-heading">
+            A LITTLE MESSAGE FOR MY DEAR FRIEND, MY SIS.
+        </p>
+
+        <h2>From Loki</h2>
+
+        <div class="envelope-container">
+            <div class="envelope" id="envelope">
+                <div class="envelope-back"></div>
+                <div class="envelope-letter"></div>
+                <div class="envelope-front"></div>
+                <div class="envelope-flap"></div>
+                <div class="heart-seal">♡</div>
+            </div>
+        </div>
+
+        <button class="open-button" id="openButton">
+            Open my letter
+        </button>
+
+    </div>
+
+    </section>
+
+    <!-- PAGE 2: LETTER -->
+    <section class="page" id="letterPage">
+
+        <div class="letter-container">
+
+            <p class="small-heading" style="padding-bottom: 20px;">A MESSAGE FROM LOKI</p>
+
+            <div class="letter-paper">
+                <p class="letter-greeting">
+                    Mingalar par, margalar pin my sis
+                </p>
+
+                <p>
+                    As you begin your next journey,
+                    I hope you meet good people, find happiness,
+                    growth, and everything you've been hoping for.
+                </p>
+
+                <p>
+                    There will be good days and difficult days
+                    but I hope you always find the strength to get through both.
+                    Take good care of yourself, MY CRAB GYI.
+                </p>
+
+                <p>
+                    Nout mha nga kg ma lyy nae lr ll khae ml hehe XD
+                </p>
+
+                <p class="letter-closing">
+                    This letter isn't goodbye, just see you later 😉
+                </p>
+            </div>
+
+
+            <!-- PHOTOS -->
+
+            <div class="photo-section">
+                <h2>Little Moments, Big Memories</h2>
+
+                <p class="section-description">
+                    Some memories deserve to stay forever.
+                </p>
+
+                <div class="photo-gallery">
+
+                    <div class="photo-card">
+                        <img src="photo1.jpg" alt="Our memory">
+                        <p>Argh thy b</p>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="photo2.jpg" alt="Our memory">
+                        <p>Eain pyn kya ml</p>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="photo3.jpg" alt="Our memory">
+                        <p>Meme nae tu</p>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="photo4.jpg" alt="Our memory">
+                        <p>Macbook selfie</p>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="photo5.jpg" alt="Our memory">
+                        <p>Snap mi kya tr</p>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="photo6.jpg" alt="Our memory">
+                        <p>Height tot tu nay dl</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <button class="next-button" id="nextButton">
+                A few more memories
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 3: VIDEO -->
+    <section class="page" id="memoriesPage">
+
+        <div class="memories-container">
+
+            <h1>Our Memories, Our Stories</h1>
+
+            <div class="video-gallery">
+                <div class="video-card">
+
+                    <video controls playsinline preload="metadata">
+                        <source src="our_memories.mov" type="video/mp4">                    
+                    </video>
+
+                    <h3>Those days when we laughed without a care.</h3>
+                    <p>A moment worth remembering.</p>
+
+                </div>
+            </div>
+
+            <div class="final-message">
+                <p>
+                    No matter where life takes us,
+                    I hope we continue making beautiful memories.
+                </p>
+
+                <p class="final-signature">
+                    Good Luck My Friend!
+                </p>
+            </div>
+
+            <button class="back-button" id="backButton">
+                Read my letter again
+            </button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
